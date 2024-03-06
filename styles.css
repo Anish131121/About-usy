@@ -1,0 +1,45 @@
+body{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: white; /* Change to the color you prefer, like lightgray or lightblue */
+    margin: 0;
+    padding: 0px; /* Added padding for better visual appeal */
+}
+
+h1{
+    color: black; /* Set heading color */
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.your-container {
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.your-item {
+  display: inline-block;
+  /* Add your styling for individual items here */
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    position: footer;
+    bottom: 0;
+    width: 100%;
+}
+#yourFixedElement {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust as needed */
+}
